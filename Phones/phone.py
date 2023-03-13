@@ -27,8 +27,8 @@ def recommand(product) :
 
 #recommand('Ulefone Note 10 32Go+2Go Octa-Core, 6,52Pouce, 8MP AI Triple Caméra, Fingerprint')
 
-pickle.dump(phones,open('phone_list.pkl','wb'))
-pickle.dump(cosinesim,open('similarity_phone.pkl','wb'))
+pickle.dump(phones,open('phone_list.pkl','rb'))
+pickle.dump(cosinesim,open('similarity_phone.pkl','rb'))
 
 #phones['userId'] = np.random.randint(1, 8, phones.shape[0])
 #phones.insert(0, 'userId', phones.pop('userId'))
