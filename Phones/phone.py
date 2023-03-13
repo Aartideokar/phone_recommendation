@@ -34,4 +34,4 @@ pickle.dump(cosinesim,open('similarity_phone.pkl','rb'))
 #phones.insert(0, 'userId', phones.pop('userId'))
 phones['classe'] = "Phone"
 
-pickle.dump(phones,open('df_phone.csv','wb'))
+pickle.dump(phones,open('df_phone.csv','rb'))
